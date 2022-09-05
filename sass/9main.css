@@ -309,7 +309,7 @@ main {
 .header .bg-onvideo {
   position: absolute;
   z-index: 2;
-  bottom: 0;
+  bottom: -30px;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
@@ -393,8 +393,18 @@ main {
   font-weight: 500;
 }
 
+.header .header-center .cumdownload ul li a:hover {
+  -webkit-filter: brightness(120%);
+          filter: brightness(120%);
+}
+
 .header .header-center .cumdownload ul li a.btn-taiandroid {
   background-color: #0e3981;
+}
+
+.header .header-center .cumdownload a.taiapk:hover {
+  -webkit-filter: brightness(120%);
+          filter: brightness(120%);
 }
 
 .headertt {
