@@ -541,7 +541,7 @@ main {
 .page4 {
   background: url(../images/bgp4.png) no-repeat bottom center;
   padding-bottom: 4rem;
-  margin-bottom: 170px;
+  margin-bottom: 70px;
 }
 
 .page4 .container {
@@ -987,11 +987,11 @@ main {
 
 .footer {
   min-height: 200px;
-  background-color: #030a11;
+  background-color: #fdfcfc;
 }
 
 .footer .footer-menu {
-  background-color: #08131e;
+  background-color: #d0dade;
 }
 
 .footer .footer-menu ul {
@@ -1007,16 +1007,17 @@ main {
   -ms-flex-line-pack: center;
       align-content: center;
   list-style: none;
+  margin-bottom: 0;
 }
 
 .footer .footer-menu ul li {
   margin: 1rem 0.5rem 1rem 0;
-  border-right: 1px solid var(--whitecolor);
+  border-right: 1px solid var(--color2);
   padding-right: 0.5rem;
 }
 
 .footer .footer-menu ul li a {
-  color: var(--whitecolor);
+  color: var(--color2);
   text-transform: uppercase;
 }
 
@@ -1047,7 +1048,7 @@ main {
 .footer .footer-content p {
   line-height: 1;
   font-weight: 500;
-  color: var(--whitecolor);
+  color: var(--color2);
 }
 
 .floatbar {
