@@ -315,6 +315,7 @@ main {
   background: url(../images/bg-top.jpg) no-repeat top center;
   height: 1030px;
   overflow: hidden;
+  background-size: contain;
 }
 
 .header .bgvideo {

@@ -75,7 +75,7 @@ main {position: relative;height: 100vh;}
 
 
 /*=Header=*/
-.header {position: relative;background:url(../images/bg-top.jpg) no-repeat top center;height: 1030px;overflow: hidden;
+.header {position: relative;background:url(../images/bg-top.jpg) no-repeat top center;height: 1030px;overflow: hidden;background-size: contain;
   .bgvideo {width: 100%;height: auto;position: absolute;top:0;left: 50%;transform: translate(-50%);background:none;border:none;z-index: 1;
     #videoef{width: 100%;height: auto;}
   }
