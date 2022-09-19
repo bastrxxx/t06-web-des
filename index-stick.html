@@ -15,6 +15,18 @@
 </head>
 <body>
 	<div class="wrapper" id="dkLogin">
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-xl  modal-dialog-centered">
+			  <div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+						<i class="fa fa-times" aria-hidden="true"></i>
+					  </button>
+					  <img src="images/popup.jpg" class="mw-100 d-block mx-auto"/>    
+				</div>
+			  </div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		  </div><!-- /.modal -->
 		<div class="xephangct">
 			<a href="#" class="btn-xephang" onclick="myFunction()"><img src="images/btn-bxh.png" alt=""/></a>
 			<div class="bangxh p-4" id="keo">
@@ -171,17 +183,17 @@
 			<ul class="pt-4">
 				<li><a href="#"><img src="images/icongames.png" alt=""/></a></li>
 				<li>
-					<a class="store" href="#"  data-bs-toggle="modal" data-bs-target="#chuacolink">
+					<a class="store" href="#"  data-bs-toggle="modal" data-bs-target="#myModal">
 						<img src="images/appstore.png" alt="" class="mx-2"/>
 					</a>
 				</li>
 				<li>
-					<a class="store" href="#"  data-bs-toggle="modal" data-bs-target="#chuacolink">
+					<a class="store" href="#"  data-bs-toggle="modal" data-bs-target="#myModal">
 						<img src="images/ggplay.png" alt="" class="mx-2"/>
 					</a>
 				</li>
 				<li>
-					<a class="store" href="#"  data-bs-toggle="modal" data-bs-target="#chuacolink">
+					<a class="store" href="#"  data-bs-toggle="modal" data-bs-target="#myModal">
 						<img src="images/android.png" alt="" class="mx-2"/>
 					</a>
 				</li>
@@ -237,19 +249,19 @@
 						<img src="images/qrcode.png" alt=""/>
 						<ul class="p-0 m-0">
 							<li>
-								<a href="#" class="btn-taiios btnd">
+								<a href="#" class="btn-taiios btnd" data-bs-toggle="modal" data-bs-target="#myModal">
 									<img class="me-3" src="images/icon-ios.png" alt=""/>
 									<span>Tải Game <br> Appstore</span>
 								</a>
 							</li>
 							<li>
-								<a href="#" class="btn-taiandroid btnd">
+								<a href="#" class="btn-taiandroid btnd" data-bs-toggle="modal" data-bs-target="#myModal">
 									<img class="me-3" src="images/icon-android.png" alt=""/>
 									<span>Tải Game <br> Google Play</span>
 								</a>
 							</li>
 						</ul>
-						<a href="" class="taiapk">
+						<a href="" class="taiapk" data-bs-toggle="modal" data-bs-target="#myModal">
 							<img src="images/taiapk.png" alt=""/>
 						</a>
 					</div>
