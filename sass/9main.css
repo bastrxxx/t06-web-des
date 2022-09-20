@@ -365,12 +365,20 @@ main {
   opacity: 0;
 }
 
+.header .header-center .bannerhead img {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
 .header .header-center .logoct {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   top: 0;
+  z-index: 2;
 }
 
 .header .header-center .cumdownload {
